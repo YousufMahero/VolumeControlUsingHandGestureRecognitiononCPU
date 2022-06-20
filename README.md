@@ -14,6 +14,5 @@ Control&Set PC's volume according to the distance between user's index finger an
 
 [![For the Lecture](https://img.youtube.com/vi/01sAkU_NvOY/0.jpg)](https://www.youtube.com/watch?v=01sAkU_NvOY)
 
-
-<br />
+Also inspired by https://github.com/Vibhugupta10616/Volume-Hand-control, especially their pinky finger set function. 
 <br />
