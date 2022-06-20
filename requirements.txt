@@ -1,0 +1,5 @@
+opencv-python
+protobuf==3.20.*
+mediapipe
+numpy
+pycaw
