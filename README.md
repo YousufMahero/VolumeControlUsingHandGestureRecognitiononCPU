@@ -1,6 +1,9 @@
 # Volume Control Using Hand Gesture Recognition on CPU
 
 Control&Set PC's volume according to the distance between user's index finger and thumb
+```python
+pip install -r requirements.txt
+```
 
 <img src="trial/volume_control.gif" alt="demo gif"  width="580" height = "380">
 
