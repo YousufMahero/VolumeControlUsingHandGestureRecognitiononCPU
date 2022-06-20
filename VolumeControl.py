@@ -52,8 +52,9 @@ while True:
         vol = np.interp(length, [50, 220], [minVol, maxVol])
         volBar = np.interp(length, [50, 220], [300, 150])
         volPer = np.interp(length, [50, 220], [0, 100])
-        print(vol)
-        volume.SetMasterVolumeLevel(vol, None)
+        fingers = detector.fingersUp()
+        if not fingers[4]:
+            volume.SetMasterVolumeLevel(vol, None)
         if length<50:
             cv2.circle(img, (cx, cy), 15, (0, 255, 0), cv2.FILLED)
 
